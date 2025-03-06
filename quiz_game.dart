@@ -55,5 +55,14 @@ void main() {
 
   print("------Game over!------");
   print("Final score : $score");
+
+  //feedback
+  if (score == 50) {
+    print("Great work! You got all the answers correct");
+  } else if (score >= 30) {
+    print("Good job! You did well!");
+  } else {
+    print("You can do better, KEEP PRACTICING!");
+  }
  
 }
